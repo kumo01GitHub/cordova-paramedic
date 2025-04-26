@@ -60,7 +60,7 @@ jobs:
           - android: 7
             android-api: 24
 
-          - android: 7.1
+          - android: 7.1.1
             android-api: 25
 
           - android: 8
