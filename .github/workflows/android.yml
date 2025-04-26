@@ -60,7 +60,7 @@ jobs:
           - android: 7
             android-api: 24
 
-          - android: 7.1
+          - android: 7.1.1
             android-api: 25
             # system-image-arch: x86
 
@@ -69,7 +69,7 @@ jobs:
 
           - android: 8.1
             android-api: 27
-            # system-image-arch: x86
+            system-image-arch: x86
 
           - android: 9
             android-api: 28
@@ -154,7 +154,7 @@ jobs:
           paramedic: ${{ endswith(env.repo, '/cordova-paramedic') && 'node main.js' || 'cordova-paramedic' }}
         with:
           api-level: ${{ matrix.versions.android-api }}
-          system-image-api-level: ${{ matrix.versions.android-api }}
+          # system-image-api-level: ${{ matrix.versions.android-api }}
           target: ${{ env.system-image-target }}
           arch: ${{ env.system-image-arch }}
           force-avd-creation: false
