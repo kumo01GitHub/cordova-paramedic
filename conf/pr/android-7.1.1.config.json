@@ -3,7 +3,7 @@
     "action": "run",
     "cleanUpAfterRun": true,
     "shouldUseSauce": true,
-    "saucePlatformVersion": "7.1",
+    "saucePlatformVersion": "7.1.1",
     "sauceDeviceName": "Android GoogleAPI Emulator",
     "verbose": true
 }
